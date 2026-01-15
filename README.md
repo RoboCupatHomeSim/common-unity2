@@ -1,22 +1,17 @@
 # Common Unity Project
 
-This is a common Unity project for the RoboCup@Home Simulation competition.
-Please make a common unitypackage, and import the unitypackage to Unity projects of each competition.
+This is a common Unity project for the RoboCup@Home Simulation competition.  
+Open this project in Unity and export the required assets as a .unitypackage. Then import the .unitypackage into each task's Unity project.
 
-See also [wiki page](https://github.com/RoboCupatHomeSim/common-unity/wiki).
+This project is only for generating the common assets. Any of the competition tasks cannot be run in this Unity project.
 
-## Prerequisites
+For the Unity version and other requirements, please refer to the [overview](https://github.com/RoboCupatHomeSim/overview) repository.
 
-Same as below for OS and Unity version.
-https://github.com/RoboCupatHomeSim/documents/blob/master/SoftwareManual/Environment.md#windows-pc
 
 ## How to Make a Common Unitypackage
 
 1. Open this project with Unity.
 1. Click [Assets]-[Export Package...].
+1. Check only the "Competition" and "SIGVerse" folders, and uncheck everything else.
 1. Click [Export...] button.
 1. Type a file name (e.g. robocup-common) and save the unitypackage file.
-
-## License
-
-This project is licensed under the SIGVerse License - see the LICENSE.txt file for details.
