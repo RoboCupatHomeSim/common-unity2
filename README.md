@@ -7,6 +7,7 @@ This project is only for generating the common assets. Any of the competition ta
 
 For the Unity version and other requirements, please refer to the [overview](https://github.com/RoboCupatHomeSim/overview) repository.
 
+See also [wiki page](https://github.com/RoboCupatHomeSim/common-unity2/wiki).
 
 ## How to Make a Common Unitypackage
 
